@@ -1,0 +1,129 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: arial, veradana, sans-serif;
+	line-height:1.5em;
+}
+
+
+h1,button {
+	font-family: coria, inherit, sans-serif
+}
+ div#navbar{
+	background-color:darkorange;
+	height:50;
+	Margin:-10 -10 0 -10;
+	Padding-top:1;
+	padding-left:10;	
+    position:fixed;
+	width:100%;
+	padding-bottom:1;
+	
+ }
+ 
+#navbar a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+    display:inline-block;
+    margin-right:10px;
+	}
+#navbar a:hover{
+	color:black;
+	Background-color:white;
+	padding:2%;
+	transform: scale(1);
+
+}
+a.home{
+	color:black !important;
+	background-color:white;
+	padding:2% !important;
+}
+div#second{
+	Background-color:#bf1010;
+	color:white;
+	margin-top:-100;
+	margin-right:-10;
+	margin-left:-10;
+	padding-bottom:50px;
+	padding-top:;
+	
+}
+ p.no1{
+	 padding-top:80px;
+	 padding-left:200px;
+    font-size:100px;
+	Text-transform:uppercase;
+ }
+ p.no2{
+	padding-left:370px;
+    font-size:30px;
+ }   
+ button{
+	 background-color:black;
+	 border:box;
+	 color:white;
+     font-size:30px;
+}
+button:hover{
+	color:black;
+	background-color:white;
+	  text-shadow: #222222 1px 1px 10;
+	  -moz-box-shadow: 0 0 10px #ccc; 
+	  -webkit-box-shadow: 0 0 10px #ccc;
+	  box-shadow: 0 0 10px #ccc;
+}
+div.main{
+	width:800px;
+	margin-top:120px;
+}
+h4{
+	font-size:30px;
+}
+div#sideimage{
+	float:right;
+	margin-top:-180px;
+    margin-right:30px;
+	
+}
+p.grey{
+	color:grey;
+	font-size:16px;
+	font-family:arial, verdana, sans-serif;
+	font-weight:bold;
+}
+div#secondimage{
+	float:left;
+	padding-left:50px;
+}
+div#secondmain{
+	float:right;
+	width:800px;
+	margin-top:80px;
+
+}
+div#Dailyquotes{
+	Background-color:orange;
+    text-align:center; 
+	margin-top:400px;
+	margin-left:-10px;
+	margin-right:-10px;
+	font-weight:bold;
+	font-stretch:extended;
+	color:white;
+	font-size:20px;
+}
+a.powered{
+	text-decoration:underline;
+	line-height:2.5em;
+	color:grey;
+	font-weight:bold;
+}
+div#socialmedia.facebook{
+	transform: scale(3);
+}
+a.twitter{
+	transform: scale(3);
+}
+a.pinterest{
+	transform: scale(3);
+}

@@ -1,0 +1,65 @@
+
+p:first-letter{
+	font-size:200%;
+}
+p:first-line{
+	font-weight:bold;
+	font-style:obligue;
+	font-stretch:extended;
+	font-size:150%;
+}
+p.none{
+	text-decoration:none;
+	line-height:2.8em;
+	
+	
+
+}
+p.underline{
+	text-decoration:underline;
+
+}
+p.overline{
+	text-decoration:overline;
+}
+p.line-through{
+	text-decoration:line-through;
+	
+}
+p.blink{
+	text-decoration:blink;
+}
+ul li{
+	list-style-type:none;
+	display:inline;
+	line-height:1.5em;
+	padding-right:5px;
+	text-transform:capitalize;
+	font-weight:bold;
+	text-align:justify;
+	background-color:red;
+	letter-spacing:0.1em;
+	max-width:500px;
+	min-width:200px;
+	box-shadow:2px 2px grey;
+}
+
+a:link{
+	color:red;
+	text-decoration:none;
+}
+a:visited{
+	color:black;
+ 
+
+	}
+a:hover{
+	color:red;	
+	font-style :italic;
+	text-decoration:overline;
+	background-color:yellow;
+
+}
+a:active{
+		color:brown;
+}
